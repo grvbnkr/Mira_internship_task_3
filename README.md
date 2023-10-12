@@ -13,19 +13,19 @@ The subject name text box must not be empty.
 The subject name must be unique.
 The app will use SQLite3 to create and manage the database of subjects. The database will have a single table with the following columns:
 
-subject_name (text, primary key)
-To create a new subject entry, the app will insert a new row into the database with the following values:
-
-subject_name: The subject name entered by the user
 The following is a brief description of how the app will work:
 
 The user enters the user button to register enquiry details name.
-user have to fill name, phone no, address, subject name
-after filling all on down-left buttton is of submit button clicking it will register query of user 
+user have to fill name, phone no, address, subject name.
+
+After filling all on down-left buttton is of submit button clicking it will register query of user 
 other button is of back button to exit user enquiry panal.
+
 on main panel above user button admin panal is present.
+
 click it will show admin authentication process for admin
 only admin can open admin panel
+
 after passing authentication process admin can see all query's of users
 
 This is just a brief description of how a Python Tkinter project enquiry app for subject enquiry using SQLite3 database for database operations and only using the create operation among CRUD operations can be designed.
